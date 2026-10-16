@@ -4,8 +4,7 @@
 #include <locale.h>
 #include <windows.h>
 
-
-void task1();
+int task1();
 int task2();
 int task3(int n);
 int task4(int A, int B, int C);
@@ -48,18 +47,16 @@ int main()
 
     int result = task4(A, B, C);
 
-    if (result == 1)
-        printf("Разрешение на погрузку получено.\n");
-    else
-        printf("Погрузка запрещена.\n");
+    printf("%s",
+        result ? "Разрешение на погрузку получено.\n"
+        : "Погрузка запрещена.\n");
 
     system("pause");
 
     return 0;
 }
 
-
-void task1()
+int task1()
 {
     char c = '!';
     int i = 2;
@@ -118,16 +115,13 @@ void task1()
     printf("Введите целое число i: ");
     scanf("%d", &i);
 
+    printf("1 / i = ");
+    printf("%s", i != 0 ? "" : "Деление на ноль невозможно.\n");
     if (i != 0)
-    {
-        printf("1 / i = %.6f\n", 1.0 / i);
-    }
-    else
-    {
-        printf("Деление на ноль невозможно.\n");
-    }
-}
+        printf("%.6f\n", 1.0 / i);
 
+    return 0;
+}
 
 int task2()
 {
@@ -167,7 +161,6 @@ int task2()
     return 0;
 }
 
-
 int task3(int n)
 {
     int last;
@@ -191,14 +184,9 @@ int task3(int n)
     return 0;
 }
 
-
 int task4(int A, int B, int C)
 {
-    int condition;
-
-    condition = (A % 5 == 0 &&
+    return (A % 5 == 0 &&
         B % 5 == 0 &&
         C % 5 == 0);
-
-    return condition;
 }

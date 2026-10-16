@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Visual Studio Progect\\LAB\\laba 4\\laba  - 4\\",
+  "WorkspaceRootPath": "D:\\Visual Studio Progect\\LAB\\laba 4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F8EDC6E-8E5F-482E-80D4-04F5BD8D5F4A}|laba  - 4\\laba  - 4.vcxproj|D:\\Visual Studio Progect\\LAB\\laba 4\\laba  - 4\\laba  - 4\\Laba -4 .c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{0F8EDC6E-8E5F-482E-80D4-04F5BD8D5F4A}|laba  - 4\\laba  - 4.vcxproj|D:\\Visual Studio Progect\\LAB\\laba 4\\laba  - 4\\Laba -4 .c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0F8EDC6E-8E5F-482E-80D4-04F5BD8D5F4A}|laba  - 4\\laba  - 4.vcxproj|solutionrelative:laba  - 4\\Laba -4 .c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Laba -4 .c",
-              "DocumentMoniker": "D:\\Visual Studio Progect\\LAB\\laba 4\\laba  - 4\\laba  - 4\\Laba -4 .c",
+              "DocumentMoniker": "D:\\Visual Studio Progect\\LAB\\laba 4\\laba  - 4\\Laba -4 .c",
               "RelativeDocumentMoniker": "laba  - 4\\Laba -4 .c",
-              "ToolTip": "D:\\Visual Studio Progect\\LAB\\laba 4\\laba  - 4\\laba  - 4\\Laba -4 .c",
+              "ToolTip": "D:\\Visual Studio Progect\\LAB\\laba 4\\laba  - 4\\Laba -4 .c",
               "RelativeToolTip": "laba  - 4\\Laba -4 .c",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-10-08T19:38:58.66Z",
               "EditorCaption": ""
